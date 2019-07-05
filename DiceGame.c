@@ -14,5 +14,10 @@ int main(){
 
   printf("Total value: %d\n",D1+D2);
 
+  if((D1+D2)>=7){
+    printf("You won!\n");
+  }
+  else printf("You lost.\n");
+
   return 0;
 }
