@@ -3,10 +3,17 @@
 
 int main(){
   int D1,D2;
+  char name[10];
+  
   srand(time(NULL));
   
   D1 = rand() % 6 + 1;
   D2 = rand() % 6 + 1;
+
+  printf("What is your name?\n");
+  printf("> ");
+  scanf("%s",&name);
+  printf("Hello, %s!\n",name);
 
   printf("Rolling the dice...\n");
   printf("Dice1: %d\n",D1);
