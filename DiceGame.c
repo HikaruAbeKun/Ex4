@@ -3,6 +3,7 @@
 
 int main(){
   int D1,D2;
+  char name[10];
   srand(time(NULL));
   
   D1 = rand() % 6 + 1;
